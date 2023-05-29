@@ -1,0 +1,105 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Roboto', san-serif;
+}
+
+.header{
+display:flex;
+align-items:center;
+justify-content:center;
+background-image:url(images/bg-header-mobile.png);
+background-position:center;
+background-size:cover;
+
+}
+
+.header-text{
+padding:100px 50px;
+text-align:center;
+}
+
+.logo{
+margin-bottom:50px;
+}
+
+.header-text h2{
+color:#4C545D;
+font-weight:700;
+font-size:25px;
+margin-top:20px;
+}
+
+.header-text p{
+margin:20px 0px 40px 0px;
+font-size:13px;
+line-height:20px;
+color:#9FABB2;
+}
+
+.header-text button{
+border:0;
+padding:15px 20px;
+margin-bottom:20px;
+text-align:center;
+background:#26BBA4;
+border-radius:50px;
+width:100%;
+color:#eee;
+font-weight:600;
+}
+
+.header-text .links{
+margin-bottom:100px;
+}
+
+.header-text .computer{
+width:100%;
+margin-bottom:30px;
+}
+
+.header-text .btn{
+background:#6375FF;
+}
+
+.access{
+margin-top:150px;
+}
+
+.brand{
+margin-bottom:50px;
+}
+
+.brands{
+margin-bottom:150px;
+}
+
+.icon{
+margin-bottom:150px;
+}
+
+.footer{
+width:100%;
+background:#eee;
+padding:40px 0px;
+text-align:center;
+}
+
+.footer .lg{
+width:70px;
+margin-bottom:40px;
+}
+.footer .p{
+display:block;
+color:#9FABB2;
+margin-bottom:30px;
+text-decoration:none;
+}
+
+.footer div img{
+margin:0 20px;
+}
